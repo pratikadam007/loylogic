@@ -1,0 +1,8 @@
+- hosts: master
+  gather_facsts: no
+  tasks:
+    - copy:
+        src: /tmp/target
+        dest: /tmp
+
+    - shell: java -jar /tmp/target/*.jar &

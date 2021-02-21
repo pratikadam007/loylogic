@@ -1,0 +1,2 @@
+[master]
+172.20.20.164 ansible_connection=ssh ansible_user=loylogic ansible_password=loylogic
